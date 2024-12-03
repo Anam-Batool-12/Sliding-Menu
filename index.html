@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Slider</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="pictures/logo (2).png" alt="" width="50px" height="50px" />
+      </div>
+      <nav>
+        <li>our menu</li>
+      </nav>
+      <div class="icon">
+        <a href="#"><i class="ri-menu-line"></i></a>
+        <a href="#"><i class="ri-home-line"></i></a>
+      </div>
+    </header>
+
+    <div class="slider">
+      <div class="list">
+        <div class="item">
+          <img src="pictures/chow mein.png" />
+        </div>
+        <div class="item active">
+          <img src="pictures/broth.png" />
+        </div>
+        <div class="item">
+          <img src="pictures/congee.png" />
+        </div>
+        <div class="item">
+          <img src="pictures/fried.png" />
+        </div>
+        <div class="item">
+          <img src="pictures/mandu.png" />
+        </div>
+        <div class="item">
+          <img src="pictures/wonton.png" />
+        </div>
+        <div class="item">
+          <img src="pictures/ramen.png" />
+        </div>
+        <div class="item">
+          <img src="pictures/plain.png" />
+        </div>
+      </div>
+      <div class="arow">
+        <button id="prev"><</button>
+        <button id="next">></button>
+      </div>
+    </div>
+
+   
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
